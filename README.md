@@ -24,11 +24,8 @@ Most screen-time apps treat the symptom. UnPlug identifies the **root trigger** 
 
 | Trigger | UnPlug Response |
 |---|---|
-| 😴 Boredom | Location-aware activity suggestion |
 | 😰 Anxiety | Structured breathing protocol + wellness remedy |
 | 😔 Loneliness | Stranger dare or group activity invite |
-| 😵 Aimlessness | Daily habit system + career-focused morning ritual |
-
 ---
 
 ## Core Features
@@ -38,61 +35,8 @@ Not a scare tactic — an honest signal. The home screen reflects what chronic s
 
 ### 👤 Adaptive Onboarding
 The app configures entirely around who you are:
-- **College student** → campus activity suggestions, internship-focused career guidance, sleep-optimized routines around class schedules
-- **Working professional** → productivity-first habit stacks, work-life balance nudges, fitness goals for a full-time schedule
-- **Job seeker** → structured daily routines, networking rituals, application momentum tracking
+- **College student** → campus activity suggestions........................................................
 
----
-
-### 🥗 Nutrition Intelligence — The Consequence Mirror
-
-Scan your food → get calories, macros, and the long-term consequences of consistent consumption.
-
-**Not a diet app. A consequence mirror.**
-
-Every calorie tracker on the market — CalAI, MyFitnessPal, Lose It — answers the same question: *"What did I eat today?"*
-
-UnPlug answers a different question entirely: **"What is eating like this doing to my brain?"**
-
-**The Gut-Brain Axis**
-Your gut and your brain are in constant two-way communication through a network called the gut-brain axis. Research confirms that nearly 90% of serotonin — the chemical responsible for mood, focus, and emotional regulation — is produced in the gut, not the brain. When your gut is disrupted by processed food, your emotional state follows.
-
-**Ultra-Processed Foods and Your Brain**
-Peer-reviewed research across millions of participants links regular ultra-processed food consumption directly to:
-- Cognitive decline and increased stroke risk *(Neurology, 2024)*
-- 25–35% higher risk of dementia in highest consumption groups *(Framingham analysis, 2025)*
-- Depression and anxiety through gut microbiome disruption and chronic inflammation
-- Dysregulation of dopamine and serotonin production — the same chemicals screen addiction exploits
-
-**The connection no one is making:**
-Excessive screen time and ultra-processed food consumption are not separate problems. They share the same biological pathway — dopamine dysregulation. Your phone and your food are running the same exploit on the same brain system. UnPlug is the first app built on that insight.
-
-**CalAI vs UnPlug — Head to Head**
-
-| Feature | CalAI | UnPlug |
-|---|---|---|
-| Photo food scan | ✅ | ✅ |
-| Calories + macros | ✅ | ✅ |
-| Long-term neurological consequences | ❌ | ✅ |
-| Gut-brain axis impact score | ❌ | ✅ |
-| Mood and focus correlation tracking | ❌ | ✅ |
-| Connected to your screen behavior data | ❌ | ✅ |
-| Inflammation risk flagging | ❌ | ✅ |
-| Integrated with mental wellness profile | ❌ | ✅ |
-
-**What UnPlug's Nutrition Intelligence Actually Does:**
-1. **Scan** — photograph your meal, get instant calories and macros
-2. **Classify** — AI identifies whether the food is ultra-processed, whole, inflammatory, or gut-supportive
-3. **Consequence Score** — projected neurological and behavioral impact over 30, 90, and 365 days
-4. **Mood Correlation** — maps your food log against your screen behavior, focus patterns, and mood check-ins
-5. **Gut-Brain Report** — weekly insight into how your diet is affecting your serotonin and dopamine pathways, in plain language
-
-> *"The gut–brain axis is a central regulatory hub for mental health. Dysbiosis-driven alterations in vagal, HPA-axis, and immune pathways provide a causal basis for mood-related disorders."*
-> — Frontiers in Psychiatry, 2025
-
-No calorie app is building this. UnPlug is.
-
----
 
 ### 🤖 Dora — AI Mentor
 
@@ -102,10 +46,6 @@ Dora is UnPlug's premium AI mentor — built on the understanding that a 19-year
 
 **How Dora works:**
 - During onboarding, you tell Dora your profile — your field, your goal, your city, and your timeline
-- Dora uses that context on every single response. She doesn't forget who you are
-- Ask her about career moves and she factors in your local job market, your major, and how far you are from your goal
-- Ask her about habits and she builds around your actual schedule — not a generic productivity template
-- Ask her about anxiety or focus and she connects it back to your screen data and nutrition patterns already logged in the app
 
 **What makes Dora different from ChatGPT or any other AI:**
 ChatGPT knows nothing about you unless you tell it every time. Dora is woven into your UnPlug profile. She sees your behavior patterns, your check-in history, your nutrition data, and your location context — and she gives you guidance that actually fits your life.
@@ -114,20 +54,6 @@ ChatGPT knows nothing about you unless you tell it every time. Dora is woven int
 
 ---
 
-### 🌅 Vision Rhythm *(Hidden Feature)*
-
-There is no button for this. No settings page. No tutorial.
-
-A small sky illustration sits quietly in the corner of every screen inside UnPlug. Most users will tap it by accident the first time. Some will tap it on purpose and not fully understand what they've unlocked until they come back at a different time of day.
-
-Tap it — and the entire atmosphere of the app shifts to match the real world outside:
-
-- 🌄 **Morning** — warm amber and soft gold. The palette that tells your brain it's time to begin
-- ☀️ **Midday** — clean whites and calm neutrals. Focus without friction
-- 🌆 **Evening** — muted terracotta and fading light. A signal to slow down
-- 🌙 **Night** — deep forest greens and warm charcoal. Engineered to reduce blue light exposure before sleep
-
-This isn't a theme selector. It's an ambient signal — a quiet reminder that the world outside still exists, that time is passing, and that your body has a rhythm that the phone was designed to erase.
 
 **The app breathes. So should you.**
 
@@ -139,17 +65,11 @@ Why it matters beyond aesthetics: blue light from screens at night suppresses me
 
 ```
 Mobile Framework  → React Native (iOS + Android)
-AI Mentor (Dora)  → Claude API — Anthropic (claude-sonnet-4-20250514)
-Nutrition Vision  → Computer Vision API (TBD — evaluating Google Vision / OpenAI Vision)
 Backend           → Node.js + Supabase
 Authentication    → Clerk
-Location Engine   → Expo Location
 Push Notifications→ Expo Notifications
-State Management  → Zustand
 Navigation        → Expo Router
 ```
-
-> Stack subject to change as architecture evolves. All major decisions documented in `/docs/architecture`
 
 
 ## Why This Matters
@@ -170,7 +90,7 @@ UnPlug sits at the intersection of **mental wellness, behavioral science, nutrit
 
 **Follow the build:**
 - 🌐 [UnPlug App](https://unplugapp.com)
-- 👤 [Roshaan Ameer — Builder](https://roshaantiwana.com)
+- 👤 [Roshaan Ameer — Founder - Builder ](https://roshaantiwana.com)
 - 💼 [LinkedIn](https://www.linkedin.com/in/roshaanstiw/)
 
 ---
@@ -206,7 +126,7 @@ Under United States copyright law (17 U.S.C. § 101 et seq.), all original works
 The following actions are **explicitly forbidden** without prior written authorization:
 
 - Copying, cloning, forking, scraping, or reproducing any portion of this codebase, documentation, or design specifications
-- Using the UnPlug concept, trigger detection system, Dora AI architecture, Vision Rhythm feature, or any product design described herein to build a competing or derivative product
+- Using the UnPlug concept, trigger detection system, Dora AI architecture, feature, or any product design described herein to build a competing or derivative product
 - Extracting, repurposing, or commercially exploiting any data, AI prompt structures, system architecture, or feature logic from this repository
 - Using the names **"UnPlug"**, **"Dora"**, or **"Vision Rhythm"** in any commercial product, service, app, or brand without written permission
 - Representing any part of this work — written, visual, or technical — as your own original work
